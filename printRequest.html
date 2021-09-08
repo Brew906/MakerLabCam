@@ -1,0 +1,160 @@
+<!--
+Michael Brewer
+6/30/2021
+Assignment: final project web page
+This web page displays live video feed to the 3D printers in the maker lab
+It also has a sign up page for students that are not certified to get files printed
+This is the Request to have a file printed page
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head><!--this sections links the other pages and has  the title tag in it-->
+        <meta charset="utf-8">
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <script src="code.js"></script>
+        <title>3D Printer Live Feed</title>
+    
+    </head>
+
+<body class="campage">
+    <header class="headermain"><!--this is the print Request page header -->
+        <div class="head3">
+            <p class="logo11"><img src="images\UAT_3DlogoCLIP_printSmall-FRONT.png"/></p><!--logo in the headder-->
+       
+             <h1 class="headertext1">Request to have your 3D print file printed</h1>
+                
+             <ul class="homebuttons">
+        
+                <a href="index.html">
+                    <button class="homepagebuttons" onclick="">Home</button><!--site navigation button-->
+                </a>
+            
+                <a href="3DprinterCam.html">
+                    <button class="homepagebuttons" onclick="">3D Printer Cams</button><!--site navigation button-->
+                </a>
+             </ul>
+                <p class="reqHeaderText">Students who are not certified to use the 3D printers can fill out the form and send and Email using the link to get your Files printed by another 3D certified student.</p>
+        </div>
+    </header>
+    <div class="tableDiv">
+        <table class="table1" >  <!--table for the request page-->
+            <tr>
+                <th colspan="3">Name</th>
+                <th colspan="3">Email</th><!--coloum headers-->
+                <th colspan="3">Date</th>
+               
+            </tr>
+            <tr>
+                <td colspan="3">Name
+                    <form onsubmit="return false">
+                        <fieldset>
+                           Enter Name <input type="string" id="name1">
+                           <input type="submit" onclick="subinfo()"/><!--this takes users input and prints it to the website-->
+                           <p id="name1re">name:</p>
+                        </fieldset>
+                        
+                    </form>
+                </td>
+                <td colspan="3">Email
+                    <form onsubmit="return false">
+                        <fieldset>
+                            Enter Email <input type="string" id="email1">
+                            <input type="submit" onclick="subinfo1()"><!--this takes users input and prints it to the website-->
+                            <p id="email1re">Email:</p>
+                        </fieldset>
+                    </form>
+
+                </td>
+                <td colspan="3">Date
+                    <form onsubmit="return false">
+                        <fieldset>
+                            Enter Date <input type="string" id="date1">
+                            <input type="submit" onclick="subinfo2()"><!--this takes users input and prints it to the website-->
+                            <p id="date1re">Date:</p>
+                           <a href="mailto:micbrewe@uat.edu"><p class="linktext">Email Mike B</p></a><!--email link-->
+                        </fieldset>
+                    </form>
+
+                </td>
+              
+            </tr>
+            <tr>
+                <td colspan="3">Name
+                    <form onsubmit="return false">
+                        <fieldset>
+                           Enter Name <input type="string" id="name2">
+                           <input type="submit" onclick="subinfo3()"/><!--this takes users input and prints it to the website-->
+                           <p id="name2re">name:</p>
+                        </fieldset>
+                        
+                    </form>
+                </td>
+                <td colspan="3">Email
+                    <form onsubmit="return false">
+                        <fieldset>
+                            Enter Email <input type="string" id="email2">
+                            <input type="submit" onclick="subinfo4()"><!--this takes users input and prints it to the website-->
+                            <p id="email2re">Email:</p>
+                        </fieldset>
+                    </form>
+
+                </td>
+                <td colspan="3">Date
+                    <form onsubmit="return false">
+                        <fieldset>
+                            Enter Date <input type="string" id="date2">
+                            <input type="submit" onclick="subinfo5()"><!--this takes users input and prints it to the website-->
+                            <p id="date2re">Date:</p>
+                           <a href="mailto:micbrewe@uat.edu"><p class="linktext">Email Mike B</p></a><!--email link-->
+                        </fieldset>
+                    </form>
+
+                </td>
+              
+            </tr>
+            <tr>
+                <td colspan="3">Name
+                    <form onsubmit="return false">
+                        <fieldset>
+                           Enter Name <input type="string" id="name3">
+                           <input type="submit" onclick="subinfo6()"/><!--this takes users input and prints it to the website-->
+                           <p id="name3re">name:</p>
+                        </fieldset>
+                        
+                    </form>
+                </td>
+                <td colspan="3">Email
+                    <form onsubmit="return false">
+                        <fieldset>
+                            Enter Email <input type="string" id="email3">
+                            <input type="submit" onclick="subinfo7()"><!--this takes users input and prints it to the website-->
+                            <p id="email3re">Email:</p>
+                        </fieldset>
+                    </form>
+
+                </td>
+                <td colspan="3">Date
+                    <form onsubmit="return false">
+                        <fieldset>
+                            Enter Date <input type="string" id="date3">
+                            <input type="submit" onclick="subinfo8()"><!--this takes users input and prints it to the website-->
+                            <p id="date3re">Date:</p>
+                           <a href="mailto:micbrewe@uat.edu"><p class="linktext">Email Mike B</p></a><!--email link-->
+                        </fieldset>
+                    </form>
+                 </td>
+         </tr>
+         </table>
+ </div>
+    <footer>
+        <div class="footerReqPage"><!--footer-->
+            <p class="mainfooterlogo"><img src="images\TRANSPARENT.png"/></p><!--school logo-->
+            <p class="mainfootertext">University of Advancing Technology</p><!--school address-->
+            <p class="mainfootertext">2625 West Baseline Road</p><!--school address-->
+            <p class="mainfootertext">Tempe, Arizona 85283</p><!--school address-->
+        </div>
+    </footer>
+       
+</body>
+</html>
