@@ -1,0 +1,177 @@
+/*Michael Brewer
+6-30-21
+Assignment: final project web page
+This web page displays live video feed to the 3D printers in the maker lab
+It also has a sign up page for students that are not certified to get files printed
+This is the CSS page that styles the web page*/
+
+.homepage{/*main page back roung*/
+	background-color: royalblue;
+}
+.headermain{
+	position: relative;
+}
+.head3{/*main page header color ans size*/
+	background-color: slategrey;
+	height: 20em;
+	margin: 2em;
+	border: 2em;
+	padding: 2em;
+}
+.logo11{/*main page logo position*/
+	float: left;
+}
+.headertext{/*header text and size*/
+	font: 225% sans-serif;   
+	position: absolute;
+	right: 5%;             
+	
+}
+.homebuttons{/*navagation buttons positon*/
+	position: absolute;
+	top: 45%;                      
+	right: 25%;                        
+}
+.homepagebuttons{/*navagation buttons size and color*/
+	background-color: lightseagreen;
+	border-radius: 8px;
+	font-size: 1em;
+	padding: 10px 20px;
+	transition-duration: 0.04s;
+	border: 2px solid white;
+}
+.homepagebuttons:hover{/*navagation buttonscolor change on hover*/
+	background-color: red;
+	color:beige;
+}
+.mainleft{/*main page left side DIV tag box*/
+	background-color: darkred;
+	float: left;
+	height:   60%;   
+	width:     65%;    
+	margin: 1em;
+}
+.mainleftpic{/*margin on the picture*/
+	margin: 2em;
+}
+.mainlefttext{/*text size and paddind*/
+	font: 2em sans-serif;
+	padding: 50px;
+}
+.mainright{/*right side main page DIV box*/
+	position: absolute;
+	right: 5%;                             
+	background-color: forestgreen;
+	height: 140%;         
+	width:  25%;         
+	
+}
+.mainrightpics1{/*pictures on right side of main page*/
+	position: absolute;
+	right: 10%;
+	margin: 10px;
+}
+.mainrightpics2{/*pictures on right side of main page*/
+	position: absolute;
+	top: 25%;
+	right: 10%;
+	
+	margin: 10px;
+}
+.mainrightpics3{/*pictures on right side of main page*/
+	position: absolute;
+	top: 50%;
+	right: 10%;
+	
+	margin: 10px;
+}
+.mainrightpics4{/*pictures on right side of main page*/
+	position: absolute;
+	top: 75%;
+	right: 10%;
+	
+	margin: 10px;
+}
+.footer{/*main page footer*/
+	position: absolute;
+	top:  210%;                                                
+	left: 2%;                                             
+	width: 95%;                                       
+	background-color: sienna;
+	height: 20%;                    
+}
+.mainfooterlogo{/*main page footer*/
+	float: left;
+}
+.campage{/*live camera page backround color and margin*/
+	background-color: darkblue;
+	margin-bottom: 170px;
+}
+
+.headertext1{/*live camera page header*/
+	position:absolute;
+	top: 20%;
+	right: 15%;
+}
+#container {/*this box holds the camera feed*/
+	position: absolute;
+	top:47%;
+	left: 23%;	
+	margin: 0px auto;
+	width:   30%;               
+	height:  40%;
+	border: 10px #333 solid;
+	
+}
+.camPcenter{/*camera page main picture*/
+	position: absolute;
+	left: 7%;
+	background-color: rgba(255, 30, 0, 0.726);
+	background-image: url(IMG_3Dprinter.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 85%;
+	height: 75%;
+}
+.footerCamPage{/*camera page footer*/
+	position: absolute;
+	top:150%;                                           
+	left: 2%;                                             
+	width: 95%;                                       
+	background-color: sienna;
+	height: 20%;            
+}
+.reqHeaderText{/*request page header*/
+	position: absolute;
+	top: 85%;
+}
+.tableDiv{/*defines the table on the request page*/
+	position: absolute;
+	top: 75%;
+	right: 10%;
+	background-color: rgba(139, 0, 0, 0.973);
+	opacity: 0.9;
+	width: 85%;
+	height: 90%;                           
+}
+.table,th,td{/*defines the table on the request page*/
+	border: 1px solid black;
+}
+.th, td{/*defines the table on the request page*/
+	padding: 5px;
+}
+.table1{/*defines the table on the request page*/
+	width: 100%;
+}
+.linktext{/*color and text size of the email link*/
+	color: black;
+	font-size: 120%;
+}
+.footerReqPage{/*request page footer*/
+	position: absolute;
+	top: 180%;                                            
+	left: 2%;                                             
+	width: 95%;                                       
+	background-color: sienna;
+	height: 20%;            
+}
