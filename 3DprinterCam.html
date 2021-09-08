@@ -1,0 +1,54 @@
+<!--
+Michael Brewer
+6/30/2021
+Assignment: final project web page
+This web page displays live video feed to the 3D printers in the maker lab
+It also has a sign up page for students that are not certified to get files printed
+This is the page that displays the live feed to the 3D printer
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head><!--this sections links the other pages and has  the title tag in it-->
+        <meta charset="utf-8">
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <script src="code.js"></script>
+        <title>3D Printer Live Feed</title>
+    
+    </head>
+    <body class="campage">
+        <header class="headermain"> <!--this is the live camera page header -->
+         <div class="head3">        
+            <p class="logo1">
+                <img src="images\UAT_3DlogoCLIP_printSmall-FRONT.png"/></p><!--logo in the headder-->
+                    <h1 class="headertext1"> Here is where your print can be seen</h1>
+                
+                        <ul class="homebuttons">
+                                <a href="index.html">
+                                    <button  class="homepagebuttons" onclick="">Home</button><!--site navigation button-->
+                                </a>
+                            
+                                <a href="printRequest.html">
+                                    <button  class="homepagebuttons" onclick="">3D Print Request Page</button><!--site navigation button-->
+                                </a>
+                        </ul>
+                <p>Must be connected to the schools WIFI network Scytale to view Live Feed</p>
+   
+                </header>
+        </div>
+            <div class="camPcenter">
+                <div id="container"><!--holds camera live feed-->
+                          <img src="http://rasppi3b-1/webcam/?action=stream&1627163124260" width="100%" height="100%" alt="3D printer web stream"/> <!--link to the live feed web cam-->
+                  </div>
+            </div>
+          
+                <footer><!--footer-->
+                    <div class="footerCamPage">
+                        <p class="mainfooterlogo"><img src="images\TRANSPARENT.png"/></p><!--school logo-->
+                        <p class="mainfootertext">University of Advancing Technology</p><!--school address-->
+                        <p class="mainfootertext">2625 West Baseline Road</p><!--school address-->
+                        <p class="mainfootertext">Tempe, Arizona 85283</p><!--school address-->
+                    </div>
+                </footer>
+    </body>
+</html>
